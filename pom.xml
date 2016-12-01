@@ -1,35 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.dongnao.jack</groupId>
 	<artifactId>dongnao-web</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>dongnao-web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-
-	<parent>
-		<groupId>com.dongnao.jack</groupId>
-		<artifactId>parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../parent</relativePath>
-	</parent>
 
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.dongnao.jack</groupId>
-			<artifactId>maven2</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-		</dependency>
-		<dependency>
-		    <groupId>javax.jms</groupId>
-		    <artifactId>jms-api</artifactId>
-		    <version>1.1-rev-1</version>
+			<version>3.8.1</version>
 		</dependency>
 	</dependencies>
 	<build>
